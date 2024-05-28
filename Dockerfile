@@ -1,4 +1,4 @@
-FROM alpine:3.13
+FROM public.ecr.aws/docker/library/alpine:3.13
 
 # Install required packages
 RUN apk --no-cache add ca-certificates curl bash jq py3-pip && \
